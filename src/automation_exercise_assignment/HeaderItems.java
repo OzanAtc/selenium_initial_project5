@@ -19,7 +19,7 @@ public class HeaderItems {
 
         for (int i = 0; i < headerItems.size(); i++) {
 
-            System.out.println("Check 1 = " + headerItems.get(i).getText().equals(actualText[i]));
+            System.out.println("Check 1 = " + headerItems.get(i).getText().equals(actualText[i])); // added Check1 to see the patterns if there is any bug with that.
             System.out.println("\n" + headerItems.get(i).getText());
             System.out.println(headerItems.get(i).isDisplayed() && headerItems.get(i).isEnabled()); // true
         }
