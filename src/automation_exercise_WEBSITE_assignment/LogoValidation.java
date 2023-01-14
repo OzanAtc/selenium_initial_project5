@@ -1,4 +1,4 @@
-package automation_exercise_assignment;
+package automation_exercise_WEBSITE_assignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
